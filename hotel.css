@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(bananaleaf.jpg)
+}
+
+.name {
+    height: 170px;
+}
+
+body {
+    background-color: gray;
+}
+
+div[class="name"] {
+    ul {
+        padding: 10px;
+    }
+
+    li {
+        display: inline-flex;
+        position: relative;
+        top: 50px;
+        margin: 3px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    color: white;
+    margin-left: 10px;
+    font-family: "Sevillana", cursive;
+}
+
+.name p {
+    position: relative;
+    text-align: end;
+    bottom: 110px;
+    right: 20px;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+.name h3 {
+    font-size: 45px;
+    font-style: italic;
+    font-family: "Sevillana", cursive;
+    position: relative;
+    text-align: end;
+    bottom: 50px;
+    color: whitesmoke;
+    margin-right: 3px;
+}
+
+.container {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.flex-item {
+    width: 200px;
+    height: 250px;
+    border: 1px solid;
+    font-size: 30px;
+}
+
+.flex-item p {
+    text-align: end;
+    position: relative;
+    top: 170px;
+    color: white;
+}
+
+.box6 p,
+.box13 p {
+    top: 135px;
+}
+
+.box1 {
+    background-image: url(dosa3.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box2 {
+    background-image: url(idly1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box3 {
+    background-image: url(pongal.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box4 {
+    background-image: url(puttu.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box5 {
+    background-image: url(chapthi.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box6 {
+    background-image: url(onion\ uttapam.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box7 {
+    background-image: url(rava\ dosa.jpg);
+    color: white;
+}
+
+.box8 {
+    background-image: url(ghee\ roast.jpg);
+    color: white;
+}
+
+.box9 {
+    background-image: url(idyappam.jpg);
+    color: white;
+}
+
+.box10 {
+    background-image: url(parotta.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box11 {
+    background-image: url(aappam.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box12 {
+    background-image: url(poori.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box13 {
+    background-image: url(kuzhi.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box14 {
+    background-image: url(tea.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.box15 {
+    background-image: url(coffee1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+div[class="footer"] {
+
+    li {
+        list-style: none;
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    p {
+        color: rgb(244, 237, 237);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.nav {
+    flex-grow: 1;
+}
+
+.media {
+    text-align: right;
+    margin-right: 55px;
+    flex-grow: 1;
+    color: whitesmoke;
+}
+
+.media a[title="#"] {
+    font-size: 20px;
+}
